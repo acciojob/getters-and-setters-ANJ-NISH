@@ -6,11 +6,11 @@ class Person {
 		this.name=name;
 		this.age=age;
 	}
-	function name()
+	get name()
 	{
 		return this.name;
 	}
-	function age(age)
+	set age(age)
 	{
 		this.age=age;
 	}
